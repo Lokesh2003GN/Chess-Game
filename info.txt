@@ -1,0 +1,36 @@
+['white', 'white', 'white', 'white', 'white', 'white', 'white', 'white'],
+    ['white', 'white', 'white', 'white', 'white', 'white', 'white', 'white'],
+    ['', '', '', '', '', '', '', ''],
+    ['', '', '', '', '', '', '', ''],
+    ['', '', '', '', '', '', '', ''],
+    ['', '', '', '', '', '', '', ''],
+    ['black', 'black', 'black', 'black', 'black', 'black', 'black', 'black'],
+    ['black', 'black', 'black', 'black', 'black', 'black', 'black', 'black']
+    
+    
+    
+    
+    ['red', 'red', 'red', 'red', 'red', 'red', 'red', 'red'],
+    ['red', 'red', 'red', 'red', 'red', 'red', 'red', 'red'],
+    ['', '', '', '', '', '', '', ''],
+    ['', '', '', '', '', '', '', ''],
+    ['', '', '', '', '', '', '', ''],
+    ['', '', '', '', '', '', '', ''],
+    ['blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue'],
+    ['blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue']
+
+
+((positionx === temp_positionx - 1 ||  ((positionx === temp_positionx - 2 && temp_positionx==6) && (positionx === temp_positionx - 1)) && temp_color1 === second_color && temp_color2===first_color))
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+  

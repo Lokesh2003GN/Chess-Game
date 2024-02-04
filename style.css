@@ -1,0 +1,146 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* white coins */
+.game_box{
+    display: grid;
+    position: relative;
+    grid-template-rows: repeat(8,85px);
+    grid-template-columns: repeat(8,85px);
+    justify-content: center;
+    text-align: center;
+}
+.white{
+    background-color: #ffb380;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.black{
+    background-color: #93674a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.select{
+    background-color: #ff3f15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.valid{
+    background-color: #eeff6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.mark{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.check{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.move_king1{
+    background-color: #ff00dc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.move_king2{
+    background-color: #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.reset_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reset_btn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #ff000adf;
+    margin: 15px;
+    width: 150px;
+}
+#change_pieces_btn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #0042ffdf;
+    margin: 15px;
+    width: 150px;
+}
+#change_color_btn{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #3bff00;
+    margin: 15px;
+    width: 150px;
+}
+#valid_moves{
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+
+  /* Styles for the container div */
+        .promotion-box {
+        display: none;
+    position: absolute;
+    top: 41.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    padding-top: 20px;
+    width: 400px;
+    background-color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+        /* Styles for the options inside the container */
+        .promotion-options {
+            display:grid;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .option-button {
+        width: 100px;
+        height: 100px;
+            margin: 5px;
+            font-size: 80px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .option-button:hover {
+            background-color: #2980b9;
+        }
+

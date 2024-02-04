@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="move_checker.js"></script>
+    <script defer src="script.js"></script>
+    <script defer src="conditions.js"></script>
+    <script defer src="pieces_move.js"></script>
+    <script defer src="valid.js"></script>
+    <script defer src="check.js"></script>
+    <script defer src="mainloop.js"></script>
+    
+</head>
+<body>
+    <div class="game_page">
+        <div class="game_box_out">
+            <input type="checkbox" name="Valid Moves" id="valid_moves" onclick="valid_moves()" checked>Valid moves
+            
+            <div class="promotion-box" id="promotion-box">
+        <h2>Pawn Promotion Options</h2>
+        <p>Select a piece for promotion:</p>
+
+        <div class="promotion-options" id="promotion-options">
+            <span>            
+            <button name="option-button" class="option-button" onclick="selectPiece('Queen')">♛</button>
+            <button name="option-button" class="option-button" onclick="selectPiece('Knight')">♞</button></span><span> 
+            <button class="option-button" name="option-button" onclick="selectPiece('Rook')">♜</button>
+            <button class="option-button" name="option-button" onclick="selectPiece('Bishop')">♝</button></span>
+        </div>
+    </div>
+                <div class="game_box_in">
+                    
+                    <div class="game_box" id="board">
+                        
+                </div>
+                <div class="reset_box">
+                    <input type="button" value="Reset Game" id="reset_btn" onclick="reset()">
+                    <input type="button" value="Change pieces" id="change_pieces_btn" onclick="change_pieces()">
+                    <input type="button" value="Change color" id="change_color_btn" onclick="change_color()">
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
